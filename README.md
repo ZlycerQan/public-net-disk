@@ -1,5 +1,9 @@
 # public-net-disk
 
+The frontend of PublicNetDisk
+
+Backend [PublicNetDisk](https://github.com/ZlycerQan/PublicNetDisk)
+
 ## Project setup
 ```
 npm install
