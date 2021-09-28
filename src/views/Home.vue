@@ -203,7 +203,6 @@ export default {
             position: 'bottom-right',
             type: 'success'
           })
-          loadData()
         } else {
           ElNotification({
             message: 'Delete ' + row.filename + " error.",
@@ -211,12 +210,14 @@ export default {
             type: 'error'
           })
         }
+        loadData()
       }).catch(() => {
         ElNotification({
           message: 'Delete ' + row.filename + " error.",
           position: 'bottom-right',
           type: 'error'
         })
+        loadData()
       })
     }
 
